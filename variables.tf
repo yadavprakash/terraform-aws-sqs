@@ -8,7 +8,7 @@ variable "name" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-sqs"
+  default     = "https://github.com/yadavprakash/terraform-aws-sqs"
   description = "Terraform current module repo"
 }
 
@@ -33,8 +33,8 @@ variable "attributes" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "yadavprakash"
+  description = "ManagedBy, eg 'yadavprakash'."
 }
 
 # Module      : SQS

@@ -14,3 +14,4 @@ module "sqs" {
   content_based_deduplication = true
   sqs_managed_sse_enabled     = false
 }
+
