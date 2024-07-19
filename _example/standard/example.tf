@@ -32,7 +32,8 @@ data "aws_iam_policy_document" "document" {
     }
     actions = ["sqs:SendMessage"]
     resources = [
-      format("arn:aws:sqs:eu-west-1:%s:test-opsstation-sqs", data.aws_caller_identity.current.account_id)
+      format("arn:aws:sqs:eu-west-1:%s:test-yadavprakash-sqs", data.aws_caller_identity.current.account_id)
     ]
   }
 }
+
